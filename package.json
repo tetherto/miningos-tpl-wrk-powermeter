@@ -23,15 +23,11 @@
     "test:coverage": "brittle --coverage tests/{,**/}*.test.js"
   },
   "dependencies": {
-    "miningos-tpl-wrk-thing": "git+https://github.com/tetherto/miningos-tpl-wrk-thing.git#pull/1/head"
+    "miningos-tpl-wrk-thing": "git+https://github.com/tetherto/miningos-tpl-wrk-thing.git"
   },
   "devDependencies": {
     "brittle": "3.16.3",
-    "miningos-mock-control-service": "git+https://github.com/tetherto/miningos-mock-control-service.git#pull/1/head",
+    "miningos-mock-control-service": "git+https://github.com/tetherto/miningos-mock-control-service.git",
     "standard": "17.1.2"
-  },
-  "overrides": {
-    "miningos-lib-stats": "git+https://github.com/tetherto/miningos-lib-stats.git#pull/1/head",
-    "svc-facs-miningos-thg-write-calls": "git+https://github.com/tetherto/svc-facs-miningos-thg-write-calls.git#pull/1/head"
   }
 }
