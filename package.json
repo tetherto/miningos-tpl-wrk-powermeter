@@ -1,0 +1,37 @@
+{
+  "name": "miningos-tpl-wrk-powermeter",
+  "version": "0.0.1",
+  "description": "MiningOS Template Worker PowerMeter",
+  "keywords": [
+    "tether"
+  ],
+  "author": "Tether",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetherto/miningos-tpl-wrk-powermeter.git"
+  },
+  "engine": {
+    "node": ">=20.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint && npm run test:unit && npm run test:spec",
+    "test:spec": "NODE_ENV=test brittle ./tests/powermeter.test.js",
+    "test:unit": "NODE_ENV=test brittle tests/unit/*.js",
+    "test:coverage": "brittle --coverage tests/{,**/}*.test.js"
+  },
+  "dependencies": {
+    "miningos-tpl-wrk-thing": "git+https://github.com/tetherto/miningos-tpl-wrk-thing.git#pull/1/head"
+  },
+  "devDependencies": {
+    "brittle": "3.16.3",
+    "miningos-mock-control-service": "git+https://github.com/tetherto/miningos-mock-control-service.git#pull/1/head",
+    "standard": "17.1.2"
+  },
+  "overrides": {
+    "miningos-lib-stats": "git+https://github.com/tetherto/miningos-lib-stats.git#pull/1/head",
+    "svc-facs-miningos-thg-write-calls": "git+https://github.com/tetherto/svc-facs-miningos-thg-write-calls.git#pull/1/head"
+  }
+}
