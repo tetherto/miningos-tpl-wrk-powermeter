@@ -1,6 +1,6 @@
 {
-  "name": "miningos-tpl-wrk-powermeter",
-  "version": "0.0.1",
+  "name": "@tetherto/miningos-tpl-wrk-powermeter",
+  "version": "1.0.0",
   "description": "MiningOS Template Worker PowerMeter",
   "keywords": [
     "tether"
@@ -11,9 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/tetherto/miningos-tpl-wrk-powermeter.git"
   },
-  "engine": {
-    "node": ">=20.0"
+  "homepage": "https://github.com/tetherto/miningos-tpl-wrk-powermeter#readme",
+  "bugs": {
+    "url": "https://github.com/tetherto/miningos-tpl-wrk-powermeter/issues"
+  },  
+  "engines": {
+    "node": ">=20"
   },
+  "files": [
+    "worker.js",
+    "workers/"
+  ],
+  "main": "worker.js",
+  "type": "commonjs",
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
@@ -27,7 +37,6 @@
   },
   "devDependencies": {
     "brittle": "3.16.3",
-    "miningos-mock-control-service": "git+https://github.com/tetherto/miningos-mock-control-service.git",
     "standard": "17.1.2"
   }
 }
