@@ -1,6 +1,6 @@
 'use strict'
 
-const BaseThing = require('miningos-tpl-wrk-thing/workers/lib/base')
+const BaseThing = require('@tetherto/miningos-tpl-wrk-thing/workers/lib/base')
 
 class BasePowerMeter extends BaseThing {
   constructor (opts) {

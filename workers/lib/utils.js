@@ -1,5 +1,5 @@
 'use strict'
 
-const libUtils = require('miningos-tpl-wrk-thing/workers/lib/utils')
+const libUtils = require('@tetherto/miningos-tpl-wrk-thing/workers/lib/utils')
 
 module.exports = libUtils

@@ -34,7 +34,8 @@
     "test:coverage": "brittle --coverage tests/{,**/}*.test.js"
   },
   "dependencies": {
-    "miningos-tpl-wrk-thing": "git+https://github.com/tetherto/miningos-tpl-wrk-thing.git"
+    "@bitfinex/bfx-svc-boot-js": "1.2.0",
+    "@tetherto/miningos-tpl-wrk-thing": "git+https://github.com/tetherto/miningos-tpl-wrk-thing.git"
   },
   "devDependencies": {
     "brittle": "3.16.3",

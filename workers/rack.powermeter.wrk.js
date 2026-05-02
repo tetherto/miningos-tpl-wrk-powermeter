@@ -1,6 +1,6 @@
 'use strict'
 
-const WrkRack = require('miningos-tpl-wrk-thing/workers/rack.thing.wrk')
+const WrkRack = require('@tetherto/miningos-tpl-wrk-thing/workers/rack.thing.wrk')
 
 class WrkPowerMeterRack extends WrkRack {
   init () {

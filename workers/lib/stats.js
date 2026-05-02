@@ -1,4 +1,4 @@
-const libStats = require('miningos-tpl-wrk-thing/workers/lib/stats')
+const libStats = require('@tetherto/miningos-tpl-wrk-thing/workers/lib/stats')
 
 libStats.specs.powermeter_default = { ops: libStats.specs.default.ops }
 
