@@ -1,6 +1,6 @@
 {
   "name": "@tetherto/miningos-tpl-wrk-powermeter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MiningOS Template Worker PowerMeter",
   "keywords": [
     "tether"
@@ -16,7 +16,7 @@
     "url": "https://github.com/tetherto/miningos-tpl-wrk-powermeter/issues"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "files": [
     "worker.js",
